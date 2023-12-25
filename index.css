@@ -1,0 +1,444 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+body {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+
+
+    font-family: 'Anton', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Junge', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sevillana', cursive;
+font-family: 'Teko', sans-serif;
+}
+.index{
+    background-image: url(banner-bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu a:hover {
+    color: #ff5733;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.row{
+    display: flex;
+}
+
+.row h1{
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 90px;
+    margin-top: 20%;
+}
+.row h5{
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 30px;
+    
+}
+.row p{
+    font-size: large;
+}
+.btn_main{
+    display: flex;
+  margin: 10px;
+   
+
+}
+.about_bt{
+    background-color:#f4b342 ; /* Green */
+    border: none;
+    color: black !important;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 10px;
+    width: 150px;
+}
+.call-bt{
+    background-color:orangered ; /* Green */
+    border: none;
+    color: black !important;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 10px;
+    width: 150px;
+
+}
+
+.about_bt:hover{
+    background-color: green;
+}
+.call-bt:hover{
+    background-color: orchid;
+}
+
+/* coffes offers start */
+.about{
+    background-color: lightslategrey;
+}
+
+.offer{
+    text-align: center;
+    text-decoration: solid;
+}
+.offer h1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.4em;
+  padding: 10px;
+}
+.store{
+    display: flex;
+}
+.store-1{
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+}
+.read_bt{
+    margin-top: 10px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #f4b342;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.read_bt:hover{
+   border: 2px solid black;
+   
+}
+.read_bt p{
+    padding-top: 12px;
+}
+
+
+
+
+.abt-info{
+    display: flex;
+}
+.about_taital_box{
+    width: 45%;
+    height: 350px;
+    background-color: white;
+     transform: translate(130px);
+     position: relative;
+     margin-top: 30px;
+     text-align: center;
+
+
+     font-family: 'Anton', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Junge', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sevillana', cursive;
+font-family: 'Teko', sans-serif;
+}
+.abt-img{
+    width: 70%;
+
+}
+.readmore_btn{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #f4b342;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+.about_taital_1{
+    font-size: 32px;
+    padding: 15px;
+}
+.about_taital_box p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.customer{
+    background-image: url(client-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ct-all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.ct-1{
+    
+    display: flex;
+}
+.client_left{
+
+    width: 20% ;
+    
+}
+.client_right{
+    float: right;
+    width: 40%;
+
+}
+.moark_text{
+    color:#6c7a89;
+    font-family:'Nunito', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    font-size: 22px;
+
+}
+
+.bg-all{
+    /* background-color: #fafbfd;*/
+    display: flex;
+}
+.bg-1{
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 30px;
+ 
+}
+.blog_box{
+    padding: 15px;
+    text-align: left;
+
+}
+.date_text{
+    position: relative;
+    top:-375px;
+    width: 70px;
+    height: 40px;
+    left: -20px;
+    z-index: 1;
+    color: #fff;
+    background-color: #ff5e6c;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.blog_img img {
+    max-width: 100%;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect - Scale on hover */
+.blog_img img:hover {
+    transform: scale(1.1); /* You can adjust the scale factor */
+    /* Add other effects/animations for hover if needed */
+}
+
+/* this is a silder effect for beatifully css added to google and chatgpt */
+
+
+.slider .row {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.slick-prev,
+    .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 100%;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        font-family: 'slick';
+        font-size: 36px;
+        line-height: 1;
+        opacity: 0.90;
+        color: black; /* Change the arrow color */
+    }
+
+    .slick-prev {
+        left: -20px;
+    }
+
+    [dir='rtl'] .slick-prev {
+        right: -25px;
+        left: auto;
+    }
+
+    .slick-next {
+        right: 5px;
+    }
+
+    [dir='rtl'] .slick-next {
+        right: auto;
+        left: -25px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        content: '←'; /* Use appropriate arrow characters or images */
+    }
+
+    .slick-next:before {
+        content: '→'; /* Use appropriate arrow characters or images */
+    }
+
+
+    /* slider effect close  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* media query used for responsive website  */
+    @media only screen and (max-width: 576px) {
+        #mySlider .slick-slide {
+            margin: 10px !important;
+            }
+            .container{
+                padding: 0;
+                width: auto;
+            }
+    }
+    @media only screen and (min-width: 576px) {
+        #mySlider .slick-slide {
+            margin: 10px !important;
+            }
+            .container{
+                padding: 0;
+                width: auto;
+            }
+    }
+    @media only screen and (max-width: 768px) {
+        #mySlider .slick-slide {
+            margin: 10px !important;
+            }
+            .container{
+                padding: 0;
+                width: 720px;
+            }
+    }
+    @media only screen and (min-width: 768px) {
+        #mySlider .slick-slide {
+            margin: 10px !important;
+            }
+            .container{
+                padding: 0;
+                width: 720px;
+            }
+    }
+    @media only screen and (max-width: 992px) {
+        #mySlider .slick-slide {
+            margin: 10px !important;
+            }
+            .container{
+                padding: 0;
+                width: 960px;
+            }
+    }
+    @media only screen and (min-width: 768px) {
+        #mySlider .slick-slide {
+            margin: 10px !important;
+            }
+            .container{
+                padding: 0;
+                width: 960px;
+            }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        #mySlider .slick-slide {
+            margin: 10px !important;
+            }
+            .container{
+                padding: 0;
+                width: 1140px;
+            }
+    }
+    @media only screen and (min-width: 1200px) {
+        #mySlider .slick-slide {
+            margin: 10px !important;
+            }
+            .container{
+                padding: 0;
+                width: 1140px;
+            }
+    }
