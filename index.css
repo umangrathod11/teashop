@@ -187,7 +187,7 @@ font-family: 'Sevillana', cursive;
 font-family: 'Teko', sans-serif;
 }
 .abt-img{
-    width: 70%;
+    width: 100%;
 
 }
 .readmore_btn{
@@ -356,11 +356,124 @@ font-family: 'Teko', sans-serif;
 
     /* slider effect close  */
 
+    @media screen and (max-width: 360px) {
+      
+        .container{
+            width: auto;
+            margin: 0 auto;
+        }
+        .logo{
+            max-width: none !important;
+        }
+        .row{
+            display: flex;
+         }
+         .banner_img{
+          margin-top: 30%;
+            width: 40% !important;
+         }
+         .banner_taital_main{
+          width: 60% !important;
+          font-size: 10px;
+  
+         }
+         .slick-prev{
+            left: 10px !important;
+        }
+        .slick-next{
+            right: 10px !important;
+        }
+        .slick-prev .slick-next {
+            z-index: 1;
+            position: absolute;
+            top: 50%;
+            transform: translate(0,-50%);
+            font-size: 0;
+            opacity: 1;
+            color: transparent;
+            transition: all .6s ease;
+
+    }
+    .offer{
+        width: 20% !important;
+        font-size: 10px !important;
+        padding: 0;
+        margin: 0;
+    }
+    .coffee_taital{
+        font-size: 10px !important;
+
+    }
+    .bulit_icon{
+       display: none !important;
+    }
+    .offer-wrapper{
+        padding: 10px;
+
+       }
+       .store{
+        text-align: center;
+
+       }
+       .store-1{
+        order:2;
+
+       }
+       .about_taital_box{
+        transform: translate(0);
+        width: 100%;
+       }
+       .abt-img{
+          width: 100%;
+       }
+     .abt-info{
+        flex-wrap: wrap;
+     }
+    
+      
+       .readmore_btn{
+      display: none;
+
+       }
+       .abt-img{
+        height: auto;
+
+       }
+       .ct-all{
+        flex-wrap: wrap;
+       }
+       .ct-1{
+
+        order:1;
+       }
+       .client_left{
+        height: 20px !important;
+        width: 50%;
+       }
+       .client_right{
+        /* margin-left: 10%; */
+        float: right;
+       }
+       .bg-1{
+        background:#f7d9c3 ;
+        font-size: 10px;
+       }
+       .read_bt{
+        cursor: pointer;
+       color: black !important;
+      border: 2px solid black !important;
+        font-weight: bold;
+        text-transform: uppercase;
+       }
+       .date_text{
+        display:none ;
+       }
+
+    }
 
 
 
-
-    @media screen and (max-width: 576px) {
+    @media screen and (min-width: 360px) and (max-width: 576px) {
         .container{
             width: auto;
         }
