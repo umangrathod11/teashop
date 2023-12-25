@@ -360,85 +360,216 @@ font-family: 'Teko', sans-serif;
 
 
 
+    @media screen and (max-width: 576px) {
+        .container{
+            width: auto;
+        }
+        .logo{
+            max-width: none !important;
+        }
+       .slider{
+        margin-top: 48px ;
 
+       }
+       .row{
+          display: flex;
+       }
+       .banner_img{
+        margin-top: 30%;
+          width: 40% !important;
+       }
+       .banner_taital_main{
+        width: 60% !important;
+        font-size: 10px;
 
+       }
+       .offer-wrapper{
+        padding: 10px;
 
+       }
+       .store{
+        text-align: center;
 
+       }
+       .store-1{
+        order:2;
 
+       }
+       .abt-info{
+        order:1;
+        font-size: 15px;
+       }
+       .about_text{
+        line-height: normal;
+        font-size: 15px !important;
+       }
+       .readmore_btn{
+        position: relative;
+        top:-20px;
+        left: -40px;
 
+       }
+       .ct-all{
+        flex-wrap: wrap;
+       }
+       .ct-1{
 
-
-    /* media query used for responsive website  */
-    @media only screen and (max-width: 576px) {
-        #mySlider .slick-slide {
-            margin: 10px !important;
-            }
-            .container{
-                padding: 0;
-                width: auto;
-            }
+        order:1;
+       }
+       .client_left{
+        height: 20px !important;
+        width: 50%;
+       }
+       .client_right{
+        /* margin-left: 10%; */
+        float: right;
+       }
+       .bg-1{
+        background:#f7d9c3 ;
+        font-size: 10px;
+       }
+       .read_bt{
+        cursor: pointer;
+       color: black !important;
+      border: 2px solid black !important;
+        font-weight: bold;
+        text-transform: uppercase;
+       }
+       .date_text{
+        display:none ;
+       }
     }
-    @media only screen and (min-width: 576px) {
-        #mySlider .slick-slide {
-            margin: 10px !important;
-            }
-            .container{
-                padding: 0;
-                width: auto;
-            }
-    }
-    @media only screen and (max-width: 768px) {
-        #mySlider .slick-slide {
-            margin: 10px !important;
-            }
-            .container{
-                padding: 0;
-                width: 720px;
-            }
-    }
-    @media only screen and (min-width: 768px) {
-        #mySlider .slick-slide {
-            margin: 10px !important;
-            }
-            .container{
-                padding: 0;
-                width: 720px;
-            }
-    }
-    @media only screen and (max-width: 992px) {
-        #mySlider .slick-slide {
-            margin: 10px !important;
-            }
-            .container{
-                padding: 0;
-                width: 960px;
-            }
-    }
-    @media only screen and (min-width: 768px) {
-        #mySlider .slick-slide {
-            margin: 10px !important;
-            }
-            .container{
-                padding: 0;
-                width: 960px;
-            }
-    }
 
-    @media only screen and (max-width: 1200px) {
-        #mySlider .slick-slide {
-            margin: 10px !important;
-            }
-            .container{
-                padding: 0;
-                width: 1140px;
-            }
+
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 576px) and (max-width: 768px) {
+        .menu {
+            flex-direction: column;
+            align-items: flex-start;
+            font-size: 6px !important;
+            /* Adjust menu styles for smaller screens */
+        }
+    
+      
+        .container{
+            width: 720px;
+        }
+        .banner_img{
+            margin-top: 30%;
+              width: 40% !important;
+           }
+           .banner_taital_main{
+            width: 60% !important;
+            font-size: 10px;
+    
+           }
+        .offer-wrapper{
+            padding: 10px;
+    
+           }
+           .store{
+            text-align: center;
+    
+           }
+           .store-1{
+            order:2;
+    
+           }
+           .about{
+            order:3;
+            background-color: none !important;
+           }
+           .abt-info{
+            font-size: 20px;
+            width: 100%;
+           }
+           .about_text{
+            line-height: normal;
+            font-size: 20px !important;
+           }
+           .readmore_btn{
+            position: relative;
+            top:-20px;
+            left: -40px;
+    
+           }
+           .ct-all{
+            flex-wrap: wrap;
+           }
+         
+           .client_left{
+            height: 20px !important;
+            width: 50%;
+           }
+           .client_right{
+            float: right;
+            width: 50%;
+            margin-right: 20%;
+           }
+           .bg-1{
+            background:#f7d9c3 ;
+            font-size: 10px;
+           }
+           .read_bt{
+            cursor: pointer;
+           color: black !important;
+          border: 2px solid black !important;
+            font-weight: bold;
+            text-transform: uppercase;
+    
+           }
+           .date_text{
+            display:none ;
+           }
+           .slick-prev .slick-next {
+            z-index: 1;
+            position: absolute;
+            top: 50%;
+            transform: translate(0,-50%);
+            font-size: 0;
+            opacity: 1;
+            color: transparent;
+            transition: all .6s ease;
+
     }
-    @media only screen and (min-width: 1200px) {
-        #mySlider .slick-slide {
-            margin: 10px !important;
+    .slick-prev{
+        left: 10px;
+    }
+    .slick-next{
+        right: 10px;
+    }
+    }
+    
+
+
+
+
+
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+
+        .menu {
+            /* Make the menu fully visible on small screens */
+            flex-basis: 100%;
+            text-align: center;
+            padding: 1em;
             }
-            .container{
-                padding: 0;
-                width: 1140px;
-            }
+            #nav-bar ul li a{
+                color : black ;
+                }
+                .active{
+                    background-color:#ffd4a3;
+                    border-radius: 5px;
+                    }
+                    .container{
+                        width: 990px;
+                    }
     }
