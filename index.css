@@ -508,14 +508,16 @@ font-family: 'Teko', sans-serif;
         order:2;
 
        }
-       .abt-info{
-        order:1;
-        font-size: 15px;
+       .about_taital_box{
+        transform: translate(0);
+        width: 100%;
        }
-       .about_text{
-        line-height: normal;
-        font-size: 15px !important;
+       .abt-img{
+          width: 100%;
        }
+     .abt-info{
+        flex-wrap: wrap;
+     }
        .readmore_btn{
         position: relative;
         top:-20px;
